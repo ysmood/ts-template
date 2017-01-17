@@ -1,0 +1,31 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "main": "lib",
+  "scripts": {
+    "test": "no test",
+    "prepublish": "tsc && no build"
+  },
+  "author": "ys",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^2.9.0",
+    "nokit": "^0.23.18",
+    "typescript": "^2.1.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysmood/ts-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ysmood/ts-template/issues"
+  },
+  "homepage": "https://github.com/ysmood/ts-template#readme",
+  "description": "ts-template",
+  "keywords": [
+    "ts-template"
+  ]
+}
