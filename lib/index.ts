@@ -1,10 +1,26 @@
 
 // It's a linked list
-export interface Context {
-    parent: Context
+export interface Node {
+    parent: Node
+    value: any
 }
 
-function traverse (forest: any[], ctx: Context) {
+
+
+const mapers = [
+    {
+        type (obj) {
+            
+        },
+        key () {},
+        map (obj, key) {
+            return obj[key]
+        }
+    }
+]
+
+function traverse (nodes: Node[], fn, opts) {
+    var iter = middlewares(nodes, opts)
 
 }
 
